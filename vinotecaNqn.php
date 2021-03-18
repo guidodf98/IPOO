@@ -64,7 +64,9 @@ function datosExtra($vinos)
     return $vinosExtra;
 }
 
- 
+/**
+ * Muestra la informacion por pantalla sobre la cantidad y precio promedio de los vinos
+ */
 function mostrarDatos($vinosExtra)
 {
     foreach ($vinosExtra as $nombreUva => $uva)
